@@ -20,8 +20,8 @@ do
 
     # then kills the process with that PID.
     sudo kill -9 $pidvar
-    echo $pidvar
 
+    # echo $pidvar
 
 done
 
