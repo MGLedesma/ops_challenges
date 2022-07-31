@@ -5,8 +5,8 @@ ps aux
 
 # asks the user for a PID, 
 
-    echo "this is the end of the search, please enter a pid to kill"
-    read pidvar
+echo "this is the end of the search, please enter a pid to kill"
+read pidvar
 
 answer="no" 
 
@@ -17,9 +17,11 @@ do
     echo "Do you want to continue? (yes/no)" 
     read answer
 
-# then kills the process with that PID.
+
+    # then kills the process with that PID.
     sudo kill -9 $pidvar
     echo $pidvar
+
 
 done
 
