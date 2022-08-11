@@ -9,13 +9,14 @@
 # must use at least one variable and one function.
 
 echo "type a domain name"
-read answer
+read webname
 
-webname=answer
-
-domain_info () {
-    whois; dig; host; nslookup $answer | cat > "domain_info.txt"
+url_info () {
+    whois $webname >> domain_info.txt
+    dig $webname >> domain_info.txt
+    host $webname >> domain_info.txt
+    nslookup $webname >> domain_info.txt
 }
 
-domain_info 
-cat domain_info.txt
+url_info
+code domain_info.txt
