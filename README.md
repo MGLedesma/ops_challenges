@@ -1,7 +1,10 @@
 # Table of Contents
 
 - [Ops Challenge 02](challenge02.sh)
+- [Ops Challenge 03](challenge03.sh)
+- [Ops Challenge 04](challenge04.sh)
 - [Ops Challenge 05](challenge05.sh)
+- [Ops Challenge 06](challenge06.sh)
 - [Ops Challenge 12](challenge12.ps1)
 - [Ops Challenge 13](challenge13.sh)
 
