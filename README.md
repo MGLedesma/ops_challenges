@@ -5,6 +5,10 @@
 - [Ops Challenge 04](challenge04.sh)
 - [Ops Challenge 05](challenge05.sh)
 - [Ops Challenge 06](challenge06.sh)
+- [Ops Challenge 07](challenge07.sh)
+- [Ops Challenge 09](challenge09.ps1)
+- [Ops Challenge 10](challenge10.ps1)
+- [Ops Challenge 11](challenge11.ps1)
 - [Ops Challenge 12](challenge12.ps1)
 - [Ops Challenge 13](challenge13.sh)
 
