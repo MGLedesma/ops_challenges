@@ -10,6 +10,9 @@
 # Add text to indicate which component the script is returning information about
 # run as sudo
 
+echo "--- Computer Name ---"
+lshw | head -n 1
+
 echo "--- CPU ---"
 lshw -c processor | grep -A2 Intel
 lshw -c processor | grep -e width
