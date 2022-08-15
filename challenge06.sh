@@ -1,7 +1,13 @@
 #!/bin/bash
 
+# Script:   Ops 201 Class 06 Ops Challenge Solution
+# Author:   MaryGrace Ledesma
+# Date of latest revision:	8/13/2022
+# Purpose:  Create a script that detects if a file or directory exist.
+
+# Main
+
 # script must use at least one array, one loop, and one conditional.
-# Create a script that detects if a file or directory exist.
 # then creates it if it does not exist.
 
 test6=(file6.txt dir6)
@@ -14,4 +20,5 @@ else
     mkdir dir6; echo "dir6 is created"
 fi
 
+# End 
 

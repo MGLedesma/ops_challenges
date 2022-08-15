@@ -1,11 +1,12 @@
 #!/bin/bash
 
+# Main
+
 # Take a user input string. Presumably the string is a domain name such as Google.com.
 # Run whois against a user input string.
 # Run dig against the user input string.
 # Run host against the user input string.
 # Run nslookup against the user input string.
-
 # must use at least one variable and one function.
 
 echo "type a domain name"
@@ -20,3 +21,6 @@ url_info () {
 
 url_info
 code domain_info.txt
+
+# End
+

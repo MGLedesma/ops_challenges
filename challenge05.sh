@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Script:   Ops 201 Class 05 Ops Challenge Solution
+# Author:   MaryGrace Ledesma
+# Date of latest revision:	8/13/2022
+# Purpose:	Write a script that kill PID and uses a loop
+
+# Main
+
 # displays running processes, 
 ps aux
 
@@ -21,3 +28,4 @@ done
 sudo kill -9 $pidvar
 echo "$pidvar kill completed"
 
+# End

@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# Script: Ops 201 Class 07 Ops Challenge                   
+# Script: Ops 201 Class 07 Ops Challenge Solution                 
 # Author: MaryGrace Ledesma
 # Date of latest revision: 8/12/2022
 # Purpose: Create a script that display specific system information
+
+#Main 
 
 # Use lshw to display system information and grep to remove irrelevant information
 # use dmidecode to display BIOS information

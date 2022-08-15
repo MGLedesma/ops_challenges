@@ -1,7 +1,9 @@
-# Script Name: Ops Challenge 12 - IP Analysis
+# Name: Ops 201 Class 12 Ops Challenge Solution
 # Author: Marygrace Ledesma
 # Date of last revision: 08/09/2022
 # Purpose: Powershell script that returns the IPv4 address string and no other extraneous information
+
+# Main
 
 function Search-IPv4
 {
