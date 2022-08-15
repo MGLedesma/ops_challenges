@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script:   Ops 201 Class 13 Ops Challenge Solution
-# Author:   MaryGrace Ledesma
-# Date of latest revision:	8/13/2022
+# Script: Ops 201 Class 13 Ops Challenge Solution
+# Author: MaryGrace Ledesma
+# Date of latest revision: 8/13/2022
 # Purpose: Write a script that run domain info.
 
 # Main
