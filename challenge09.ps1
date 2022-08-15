@@ -1,7 +1,7 @@
 # Script: Ops 201 Class 09 Ops Challenge
 # Author: MaryGrace Ledesma
 # Date of latest revision: August 14, 2022
-# Purpose: Create a script fetches System event logs.
+# Purpose:  PowerShell script that fetches System event logs.
 
 # Main
 
@@ -19,3 +19,5 @@ get-eventlog -logname system -newest 20
 
 # Print to the screen all sources of the 500 most recent entries in the System event log. Ensure that the full lines are displayed (get rid of the … and show the entire text).
 get-eventlog -logname system -newest 500 | select-object -property source | format-table -autosize
+
+# End
